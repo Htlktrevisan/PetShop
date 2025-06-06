@@ -5,6 +5,8 @@ import BanhoTosa from "./pages/BanhoTosa";
 import HotelResort from "./pages/HotelResort";
 import Adestramento from "./pages/Adestramento";
 import NavbarMenu from "./components/NavbarMenu";
+import Footer from "./components/Footer";
+import Contato from "./components/Contato";
 
 
 
@@ -14,12 +16,18 @@ const App = () => {
 			<header>
 				<NavbarMenu />
 			</header>
+			<main>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/banho-e-tosa" element={<BanhoTosa />} />
 				<Route path="/hotel-resort" element={<HotelResort />} />
 				<Route path="/adestramento" element={<Adestramento />} />
 			</Routes>
+			</main>
+
+			<footer>
+				<Footer/>
+			</footer>
 			
 		</Router>
 		
