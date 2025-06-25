@@ -25,7 +25,7 @@ const App = () => {
 			</Routes>
 			</main>
 
-			<footer>
+			<footer class="rodape">
 				<Footer/>
 			</footer>
 			

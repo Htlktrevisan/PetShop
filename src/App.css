@@ -1,5 +1,3 @@
-
-
 .logo img {
 	height: 100px;
 }
@@ -44,61 +42,153 @@
 	margin: 0 4%;
 }
 
-  .servico img{
+.servico img{
 	width: 100%;
 	height: 70%;
-  }
+}
 
-  .section h3{
+.section h3{
 	background-color: black;
 	color: rgb(255, 255, 255);
 	font-size: 1.3rem;
 	text-align: center;
-  }
+}
 
-  .titulo{
+.titulo{
 	color: black;
-  }
+}
 
-  .contato{
-	background-color: black;
-	height: 400px;
-	padding: 50px 0;
-	
-  }
+.rodape{
+	width: 100%;
+	background-color: #333;
+	margin-top: 50px;
+}
 
-  .contato h1{
+.contato{
+
+}
+
+.contato h1{
 	color: white;
 	font-size: 25px;
 	text-align: center;
 	align-items: center;
-	margin: 3%;
-	
-  }
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
 
-  input, textarea{
+input, textarea{
 	width: 100%;
 	padding: 5px;
-	
-  }
+}
 
-  .linhaForm{
+textarea{
+	height: 120px;
+}
+
+.linhaForm{
+	margin: 10px 0;
+}
+
+.linhaForm2{
 	margin: 10px 0;
 	display: flex;
+}
 
-  }
+.linhaForm2 p{
+	color: #fff;
+	margin-left: 20px ;
+}
 
-  input[type=submit]{
+input[type='submit']{
 	width: auto;
 	padding: 5px 20px;
+	width: 130px;
 	background-color: #666;
-	color: white;
+	color: #fff;
 	float: right;
+}
+
+svg{
+	color: #fff;
+	width: 30px;
+	height: 30px;
+}
+
+.svgInstagram{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.mapa{
+	width: 100%;
+	height: 250px;
+	margin-top: 30px;
+}
+
+.direitosAutorais{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #cccccc;
+	text-align: center;
+	margin-top: -7px;
+}
+
+.tituloBanhoTosa{
+	border: solid;
+	width: 100%;
+	background-color: #333;
+	margin-left: -100px;
+	margin-top: 20px
 	
-  }
-  
-  .euamo{
-	border: solid 2px red ;
-	width: 50%;
-	display: flex;
-  }
+}
+
+.tituloBanhoTosa h1{
+	color: #fff;
+	margin-left: 20px;
+}
+
+.imgContentBT{
+	width: fit-content;
+	/* border: solid; */
+	margin-top: 30px;
+	/* margin-left: 100px; */
+}
+
+.imgContentBT img{
+	width: 500px;
+}
+
+.txtContentBT{
+	margin-top: 35px;
+	margin-left: -40px;
+}
+
+.txtContentBT p{
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.txtContentBT button{
+	margin-top: 10px;
+	color: #fff;
+	background-color: #333;
+	width: 130px;
+	border-radius: 10px;
+}
+
+.txtContentBT button:hover{
+	color: #bebebe;
+	background-color: #292929;
+	transition: 0.2s;
+	transform: scale(0.92, 0.92);
+}
+
+.rotulo{
+	background-color: #333;
+	color: #fff;
+	font-size: 30px;
+	width: fit-content;
+	text-transform: uppercase;
+	padding: 5px 300px 5px 300px;
+}
