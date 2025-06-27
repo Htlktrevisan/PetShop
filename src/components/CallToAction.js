@@ -3,13 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function TituloBanhoTosa({rotulo}){
+function CallToAction({textoCTA}){
     return(
-        <Container fluid className='px-0'>
+        <Container fluid>
             <Row>
                 <Col>
-                    <div class='tituloBanhoTosa'>
-                        <h1>{ rotulo }</h1>
+                    <div class='CTA_div'>
+                        <h1>{textoCTA}</h1>
                     </div>
                 </Col>
             </Row>
@@ -17,4 +17,4 @@ function TituloBanhoTosa({rotulo}){
     )
 }
 
-export default TituloBanhoTosa;
+export default CallToAction;
